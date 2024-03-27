@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Encriptación de texto en JavaScript</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+  
+</head>
+<body>
+  <img src="logo alura.jpeg" id="logo">
+   <h1>ENCRIPTADOR DE TEXTO</h1>
+   
+     <div class="cajones1" >
+      <h2>texto a encriptar</h2>
+      <textarea id="textoOriginal" rows="15" cols="15"required placeholder="TEXTO A ENCRIPTAR"></textarea><br>
+    </div>
+    <div class="cajones1">
+    <h2>texto encriptado</h2>
+    <textarea id="textoEncriptado" rows="15" cols="15"required placeholder="TEXTO ENCRIPTADO"></textarea><br>
+    </div>
+    <div class="cajones1">
+    <h2>texto desencriptado</h2>
+    <textarea id="textoDesencriptado" rows="15" cols="15"required placeholder="TEXTO A DESENCRIPTAR"></textarea><br>
+    </div>
+  
+   <button onclick="encriptar()" id="boton1">Encriptar</button><br><br>
+   <button onclick="desencriptar()">Desencriptar</button><br><br>
+   <button onclick="limpiar()">Limpiar</button><br><br>
+
+   <script src="app.js"></script>
+
+
+
+<footer>
+   <p class="copyright"> &copy copyright encriptador Nanyi-velez-2024</p>
+</footer>
+
+
+</body>
+</html>

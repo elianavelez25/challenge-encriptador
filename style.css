@@ -1,0 +1,53 @@
+#logo{
+    float: left;
+    padding-top: 0%;
+    width: 30px;
+}
+
+body {
+    background-image: url("fondo-tecnologia-abstracta-codigo-programacion_34663-30.avif");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 4%;
+    padding: 0%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:center;
+    height: 600px;
+    margin-block-end: 2%;
+    color: rgb(196, 57, 138);
+}
+h2{
+    font-size: 15px;
+}
+.cajones1{
+    float: left;
+    padding: 25px;
+    margin-top: 0%;
+    opacity: 90%;
+}
+#boton1{
+    margin-top: 75px;
+}
+button{
+    margin-top: 60px;
+    margin-bottom: 0%;
+    width: 100px;
+}
+.copyright{
+    color:#ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+@media screen and (max-width:480px){
+    h1, h2{
+        text-align: center;
+    }
+    
+    .cajones1, button{
+        width: auto;
+    }
+    
+
+}
